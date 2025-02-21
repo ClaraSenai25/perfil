@@ -14,10 +14,13 @@ a {
     font-size: 20px;
     color: slateblue;
     padding: 10px;
+    text-align: center;
     border-radius: 10px;
     margin: 10px;
     display: block;
     text-decoration: none;
+    min-width: 200;
+    max-width: 500;
 }
 
 img {
@@ -44,3 +47,12 @@ img {
         transform: translateY(-10px);
     }
 }
+
+.teste {
+    width: 320px;
+    height: 50px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
